@@ -1,0 +1,28 @@
+<div [ngClass]="url1==='/about' ? 'footerAlt' : 'footer'">
+    <!-- <div class="fixed-bottom footer"> -->
+    <hr>
+    <nav class="container-fluid pt-4 justify-content-center align-content-center">
+        <div class="row d-inline-flex text-center">
+            <div class="col-1 mr-4 ml-4">
+                <a href="https://www.linkedin.com/in/andr%C3%A9-mendon%C3%A7a-maia-216a2846/" target="_blank">
+                    <mat-icon svgIcon="Linkedin"></mat-icon>
+                </a>
+            </div>
+            <div class="col-1 mr-4 ml-4">
+                <a href="https://github.com/andre4130/" target="_blank">
+                    <mat-icon svgIcon="GitHub"></mat-icon>
+                </a>
+            </div>
+            <div class="col-1 mr-4 ml-4">
+                <a [href]="email">
+                    <mat-icon svgIcon="Email" target="_blank"></mat-icon>
+                </a>
+            </div>
+            <!-- <div class="col-1 mr-4 ml-4">
+                <a [href]="https://www.flickr.com/photos/andre4130/">
+                    <mat-icon svgIcon="Flickr" target="_blank"></mat-icon>
+                </a>
+            </div> -->
+        </div>
+    </nav>
+</div>

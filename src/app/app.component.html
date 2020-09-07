@@ -1,0 +1,31 @@
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav mode="push" [(opened)]="opened">
+      <ul style="padding-right: 10px;">
+        <li  class="nav-item">
+            <a  class="nav-link" (click)=this.sidenav.close() [routerLink] = "['home']" [routerLinkActive]="['active']">Home</a>
+            </li>
+            <li  class="nav-item">
+            <a  class="nav-link" (click)=this.sidenav.close() [routerLink] = "['about']" [routerLinkActive]="['active']">About</a>
+            </li>
+            <li  class="nav-item">
+              <a  class="nav-link" (click)=this.sidenav.close() [routerLink] = "['cv']" [routerLinkActive]="['active']">CV</a>
+              </li>
+            <li  class="nav-item">
+            <a  class="nav-link" (click)=this.sidenav.close() [routerLink]="['contact']">Contact</a>
+            </li>
+    </ul>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div class="row pl-3" style="justify-content: space-between;" [ngClass]="{'fadeIn': opened==false,'fadeOut': opened==true}">
+        <button class="navbar-dark bg-muted navbar-toggler pl-3" type="button" (click)='sidenav.toggle()' style="width: 60px;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="pr-5 mr-3">
+          <span style="text-align: right;"><h1>It's me, André!</h1></span>
+        </div>
+      </div>
+      <hr>
+      <router-outlet></router-outlet>
+      <app-footer></app-footer>
+    </mat-sidenav-content>
+  </mat-sidenav-container>

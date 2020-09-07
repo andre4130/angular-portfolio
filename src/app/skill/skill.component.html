@@ -1,0 +1,213 @@
+<div class="container-fluid pl-5 pt-2 animated fadeIn">
+    <!-- Main Header of the Section -->
+    <div class="text-left pb-5">
+        <h1>{{skill.type}}</h1>
+    </div>
+    <!-- Div for Engineering -->
+    <div class="skill.type row" *ngIf="skill.type=='Engineering & Design'">
+        <div class="col-lg-6 pt-3">
+            <div class="pl-5 text-center">
+                <!-- <h3>Engineering Projects</h3> -->
+                <p></p>
+                <div id="carouselEngineeringInterval" class="carousel slide pt-5 " data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="3500">
+                            <img src="assets/img/seat1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="3500">
+                            <img src="assets/img/seat2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="3500">
+                            <img src="assets/img/audi1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselEngineeringInterval" role="button"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselEngineeringInterval" role="button"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="text text-left pl-2 pt-5">
+          
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 pt-3">
+            <div class="pl-5 pr-5 text-right">
+                <h2>Engineering Projects</h2>
+                <div class="text pt-4">
+                    <span>I graduated myself as Mechanical Engineer in July 2008. While at university, I started
+                        developing a special interest in Product Design since an early stage.
+                        On my last year of University, while doing an exchange programme at the Universitat Politècnica
+                        de Catalunya, in Barcelona, I was proposed to develop my Final Degree Project under the scope of
+                        Lighting Design.
+                        This topic was for me completely now, but immediately triggered on me a strong interest. I
+                        decided to accept this proposal and started developing a LED Lamp post for Urban Surroundings.
+                        <p></p>
+                        A few months later after finishing my degree, I started a Master's Degree in Graphical
+                        Engineering applied to Product Development Projects, taking a step further in Product
+                        Development knowledge by learning
+                        new techniques for the presentation of Projects, such as rendering and 3D animation. This
+                        Master's Degree taught me advanced skills on 3D modeling software (CATIA) and also 3D animation
+                        and rendering skills on Blender.
+                        This Master's degree included as well a Post-grade in Computer Aided Engineering, where I could
+                        learn Finite Element Methods, in order to simulate engineering environments for Structural and
+                        Thermal analysis.
+                        <p></p>
+                        Since I started working as an Engineer, my career has been completly focused in Lighting Design.
+                        My first job was in The Netherlands, were I worked as a Lighting Designer intern at Studio
+                        Roosegaarde, an interactive lighting design studio (more details on the next section).
+                        One year later after moving to The Netherlands, I decided to go back to Barcelona and I started
+                        to work at SEAT Technical Center, the largest R&D center in Spain. At SEAT, I spent nearly 8
+                        years working for the Lighting Department. First as a Lighting Validation Technician at the
+                        Lighting Laboratory (1 year),
+                        and later as a R&D Engineer for Interior Lighting, being resposible for the development of the
+                        new interior lighting projects of the brand, such as SEAT León, Ibiza and Ateca, as well as the
+                        AUDI A1.
+                        <p></p>
+                        Nearly 8 years working at SEAT gave me a broad view of working as a Product Developer for a big
+                        and demanding industry. Skills such as research, product development, team working, decision
+                        taking and communication with clients and teams have been greatly developed and enhanced during
+                        this period.
+                        Before my career break, I still had the chance to work half year as Lighting Simulation
+                        Technician at SEAT, were I was able to simulate Lighting Systems with SPEOS, a powerful lighting
+                        simualtion tool used for the Automotive Industry.
+                    </span>
+                </div>
+            </div>
+            <div>
+                <div class="text-right pr-5 pt-5">
+                    <h3>Patents</h3>
+                    <p></p>
+                    <span>While working at SEAT, I had the chance to develop new ideas and concepts that ended up being
+                        patented for industrial protection
+                        <br>
+                        You can download the documentation of the following patents by clicking the button below.
+                    </span>
+                    <p></p>
+                    <button type="button" class="btn btn-dark" (click)=downloadPdf()>Download Patents</button>
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <!-- design projects div -->
+        <div class="col-lg-6 pt-5">
+            <div class="pl-5 pt-5 text-center">
+                <!-- <h3>Design Projects</h3> -->
+                <div id="carouselDesignInterval" class="carousel slide pt-2 " data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="3500">
+                            <img src="/assets/img/dune1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="3500">
+                            <img src="/assets/img/dune2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="3500">
+                            <img src="/assets/img/marbles1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="3500">
+                            <img src="/assets/img/marbles2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="3500">
+                            <img src="/assets/img/sensor1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="3500">
+                            <img src="/assets/img/sensor2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselDesignInterval" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselDesignInterval" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="pt-5">
+                    <div class="">
+                        <iframe width="560" height="315" style="border-radius: 10px;"
+                            src="https://www.youtube-nocookie.com/embed/VDEXXChCLkY" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p></p>
+        <div class="col-lg-6 pt-5">
+            <div class="pl-5 pr-5 text-right">
+                <h2>Design Projects</h2>
+                <p></p>
+                <span>Back in 2010, and thanks to a scholarship from the Portuguese Government, I had the oportunity to
+                    do an internship at the interactive design Studio Roosegaarde, one of the most important
+                    interactive design studios in The Netherlands. Worldwide known for its art pieces that merge light
+                    and interactivity, while working at Studio Rooseegarde I had the chance to improve my design skills
+                    and apply my knowledge in lighting design,
+                    as well as learning new techniques of prototype building, wood construction, electronics and
+                    programming, as we were working together with the Electronics Engineering department.
+                </span>
+                <p></p>
+                <span>A summary of the projects I worked at during the 9 months of my internship can be seen
+                    below:</span>
+                <ul>
+                    <li><a href="https://www.studioroosegaarde.net/project/marbles"><h3>Marbles</h3></a></li>
+                    <li><a href="https://www.studioroosegaarde.net/project/sensor-valley"><h3>Sensor Valey</h3></a></li>
+                    <li><a href="https://www.studioroosegaarde.net/project/dune"><h3>Dune</h3></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Div for Coding  -->
+    <div class="skill.type row d-inline" *ngIf="skill.type=='Front End Development'">
+        <div class="col-lg-12 d-flex text-left">
+            <div class="col-lg-12 card-columns">
+                <div class="card" *ngFor="let project of feProjects">
+                    <a [href]=project.link target="_blank">
+                        <img [src]=project.img class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{project.name}}</h5>
+                            <p class="card-text">{{project.description}}</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Div for Music -->
+
+        <div class="skill.type row" *ngIf="skill.type=='Music'">
+            <div class="col-md-6">
+                <div class="pl-5">
+                    <h4>Education</h4>
+                    <br>
+                    <h5>{{skill.experienceDate1}}</h5>
+                    <br>
+                    <p>{{skill.experience1}}</p>
+                    <div>
+                        {{skill.education1}}
+                    </div>
+                    <div *ngIf="skill.type=='Music'">
+                        <a href="{{skill.links[0]}}" target="_blank">vuelve zinc</a>
+                        <p></p>
+                        <a href="{{skill.links[1]}}" target="_blank">Unfollowers</a>
+                        <p></p>
+                        <a href="{{skill.links[2]}}" target="_blank">Mayer-Sánchez</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="justify-content-end pt-5 text-right">
+            <button class="btn btn-outline btn-light mr-5" [routerLink]="['/home']"
+                routerLinkActive="router-link-active">Back to
+                Home</button>
+        </div>
+    </div>
