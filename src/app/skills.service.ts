@@ -234,6 +234,12 @@ export class SkillsService {
  
   private feProjects: Frontend[] = [
     {
+      name:"Gimme Venue App",
+      img: "assets/img/gimmevenue.jpg",
+      description:"Gimme Venue is my personal experimental lab in ReactJS using MapboxGL. The main goal of this App is to get Music venues and Artists in contact for an easier communication and booking. Work in Progress.",
+      link: "https://andre4130.github.io/gimmevenue/"
+    },
+    {
       name:"Sidewalk Bookings Agency Website",
       img: "assets/img/sidewalk.jpg",
       description:"Sidewalk Bookings is one of the finest Music Booking agencies in Barcelona. Started in 2010, they have organized some of the nicest gigs in town, as well as organizing Tours for different artists all over Europe. This is their website.",
