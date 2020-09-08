@@ -165,9 +165,27 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <h3>Patents</h3>
+                <div class="text-left pl-3">
+                    <p></p>
+                    <span>While working at SEAT, I had the chance to develop new ideas and concepts that ended up being
+                        patented for industrial protection
+                        <br>
+                        You can download the documentation of the following patents by clicking the button below.
+                    </span>
+                    <p></p>
+                    <button type="button" class="btn btn-dark" (click)=downloadPatent()>Download Patents</button>
+                </div>
+            </div>
+            <br>
+            <p></p>
             <div class="">
                 <h3>Curriculum Vitae</h3>
-                <div class="pl-3 pt-3">
+                <div class="pl-3 pb-3">
+                    <span>Below you can download my one-page CV in PDF.
+                    </span>
+                    <p></p>
                     <button type="button" class="btn btn-dark" (click)=downloadPdf()>Download CV</button>
                 </div>
             </div>
@@ -219,7 +237,7 @@
             </div>
         </div>
     </div> -->
-<div class="justify-content-end pt-5 text-right">
+<div class="justify-content-end pt-5 text-right pr-5">
     <button class="btn btn-outline btn-light" [routerLink]="['/home']" routerLinkActive="router-link-active">Back to
         Home</button>
 </div>

@@ -41,4 +41,10 @@ export class CvComponent implements OnInit {
     const pdfName = 'CV_André_de_Mendonça_Maia';
     FileSaver.saveAs(pdfUrl, pdfName);
   }
+
+  downloadPatent() {
+    const pdfUrl = './assets/patents/EP3184363A1.pdf';
+    const pdfName = 'patent1';
+    FileSaver.saveAs(pdfUrl, pdfName);
+  }
 }

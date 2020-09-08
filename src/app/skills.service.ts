@@ -43,8 +43,8 @@ export class SkillsService {
       link: 'frontend',
       type: 'Front End Development',
       class: 'frontend',
-      education1:'Developer Program - Front End Development',
-      educationDate1:'From January 2020 to June 2020',
+      education1:'Developer Program - Front End Development - Angular + ReactJS path',
+      educationDate1:'From January 2020 to August 2020',
       educationLocation1:'IT Academy (Barcelona, Spain)',
       links:[
         'https://andre4130.github.io/sidewalkbookings/',
