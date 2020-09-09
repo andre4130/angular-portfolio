@@ -17,8 +17,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.skills = this._skillsService.getSkills();
     this.languages = this._skillsService.getLanguages();
-    console.log("funcionando!")
-    console.log(this.skills)
+    // console.log("funcionando!")
+    // console.log(this.skills)
   }
   
   goToSkill(idx:number) {

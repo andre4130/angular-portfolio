@@ -1,6 +1,6 @@
 <div class="container home">
     <div class="row d-flex justify-content-center animated fadeIn">
-        <div class="col-4 pb-4" *ngFor="let skill of skills; let i = index">
+        <div class="col-lg-4 pb-4 skill-content" *ngFor="let skill of skills; let i = index">
             <div class="skill {{skill.class}}">
                     <!-- <div class=""> -->
                         <div class="skill d-flex align-items-center justify-content-center" *ngIf="skill.type=='Music'" (click)="goToBands()">
@@ -17,20 +17,9 @@
                         </div>
                         <div class="skill d-flex align-items-center justify-content-center" *ngIf="skill.type=='Contact'" (click)="goToContact()">
                             <h1>{{skill.type}}</h1>
-                        </div>
-                        <!-- <button class="align-content-end" *ngIf="skill.type=='Music'" type="button" (click)="goToBands()" class="btn btn-outline-light btn-dark">Check My Music</button>
-                        <button class="align-content-end" *ngIf="skill.type=='About'" type="button" (click)="goToAbout()" class="btn btn-outline-light btn-dark">Know More</button>
-                        <button class="align-content-end" *ngIf="skill.type=='Engineering & Design'||skill.type=='Front End Development'" type="button" (click)="goToSkill(i)" class="btn btn-outline-light btn-dark">Check My Skills</button> -->
-                    <!-- </div> -->
-  <!-- <span class="align-self-center animated fadeIn" *ngIf="!changeText"></span>
-                    <span class="align-self-center animated fadeIn" *ngIf="changeText" >{{skill.type}}</span> -->
-   
+                        </div>   
             </div>
         </div>
     </div>
 </div>
-
-
-
-
 <!-- ; let i = index" (skillSelected)="goToSkill($event)" [skill]=skill -->

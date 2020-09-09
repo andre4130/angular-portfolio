@@ -25,6 +25,7 @@ import { CvComponent } from './cv/cv.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactService } from './contact.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,

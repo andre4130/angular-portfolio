@@ -1,7 +1,7 @@
 <div class="container-fluid d-flex d-block contact-container">
     <div class="container">
         <p></p>
-        <h2 class="text-center mb-5">Hi! If you'd like to contact me, send me a message!</h2>
+        <h2 class="text-center mb-5">Hi! If you'd like to contact me, send me a message or give me a call!</h2>
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
@@ -24,8 +24,16 @@
                     </div>
                     <button type="submit" class="btn btn-secondary" [disabled]="!FormData.valid">Submit</button>
                 </form>
+                <div class="pt-3">
+                    <p></p>
+                    <mat-icon svgIcon="Mobile">p</mat-icon><span>  +34 693 460 337</span>
+                    <p></p>
+                    <mat-icon svgIcon="Email">p</mat-icon><span>&nbsp; andre4130@gmail.com</span>
+
+                </div>
             </div>
         </div>
+
     </div>
 </div>   
  <div class="justify-content-end pt-5 text-right mr-5">

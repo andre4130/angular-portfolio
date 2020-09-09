@@ -2,7 +2,7 @@
     <h1 class="pl-5 pt-2">Music</h1>
     <div class="container-fluid p-5 m-3">
         <div class="row d-flex justify-content-center animated fadeIn">
-            <div class="col-4 pb-4 text-align-center bands" *ngFor="let band of music; let i=index">
+            <div class="col-lg-4 pb-4 text-align-center bands" *ngFor="let band of music; let i=index">
                 <div class=""></div>
                 <h2>{{band.band}}</h2>
                 <img style="border-radius: 10px;" src={{band.img[0]}} (click)="goToBand(i)" alt="">

@@ -3,6 +3,36 @@ height: 300px;
 width: auto;
 }
 
+@media(max-width:992px){
+    .photo{
+        width:100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .about-box{
+        display: inline-flex;
+        align-self: center;
+    }
+
+}
+
+@media(max-width:500px){
+    .photo{
+     
+        display: flex;
+        justify-content: center;
+    }
+    .photo > img{
+            height: 75vw !important;
+    }
+}
+
 .about-container {
     height: auto;
+    width: 100vw;
+}
+
+.about-box {
+    width: 100vw;
+    padding: 40px;
 }

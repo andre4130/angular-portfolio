@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
 export class SkillsService {
   
   private skills:Skill[] = 
-  [
+  [   
     {
       link: 'engineering',
       type: 'Engineering & Design',
@@ -38,7 +38,6 @@ export class SkillsService {
       educationLocation3:'Universidade de Aveiro (Aveiro, Portugal)',
       backgroundimg: './assets/img/industrial-design.jpg'
     },
-    
     {
       link: 'frontend',
       type: 'Front End Development',
@@ -52,6 +51,7 @@ export class SkillsService {
       ],
       backgroundimg: './assets/img/coding.jpg'
     },
+  
     {
       link: 'music',
       type: 'Music',
@@ -264,7 +264,7 @@ export class SkillsService {
       link: "https://andre4130.github.io/RandomJokes/"
     },
     {
-      name:"SASS Vuelve Zinc",
+      name:"Vuelve Zinc",
       img: "assets/img/zinc.jpg",
       description:"SASS animation for the band Vuelve Zinc",
       link: "https://andre4130.github.io/VuelveZinc/"
